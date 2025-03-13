@@ -13,7 +13,7 @@ app.use(express.json());
 // CORS Middleware
 app.use(
   cors({
-    origin: "http://165.22.17.13:3000", // Frontend URL'sini buraya ekleyin
+    origin: "*", // Frontend URL'sini buraya ekleyin
     credentials: true,
   })
 );
